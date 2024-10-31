@@ -1,0 +1,69 @@
+.OrderInformationTracking-main-order {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    max-width: 100vw;
+
+}
+
+.OrderInformationTracking-header-tracking {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: -25px;
+}
+
+.OrderInformationTracking-header-tracking p {
+    text-align: center;
+    font-size: 40px;
+    color: #3D3D74;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin-top: 40px;
+    font-weight: 800;
+
+    border-bottom: 3px solid black;
+}
+
+
+
+.OrderInformationTracking-tracking-order {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    margin-left: 8px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100vw;
+    margin-top: 40px;
+}
+
+.OrderInformationTracking-tracking-order p {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    font-weight: 700;
+    font-family: cursive;
+}
+
+.OrderInformationTracking-tracking img {
+    width: 20%;
+    height: 20%;
+    opacity: 0.5;
+}
+
+.OrderInformationTracking-tracking img:hover {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.OrderInformationTracking-tracking label {
+    font-size: 15px;
+    font-family: 'Kay Pho Du';
+    word-wrap: break-word;
+    white-space: normal;
+
+}

@@ -1,0 +1,119 @@
+.OrderInformationDelete-order-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 60%;
+    width: 450px;
+    height: 500px;
+}
+
+.OrderInformationDelete-button {
+    color: red;
+    background-color: antiquewhite;
+    font-family: 'Kay Pho Du';
+}
+
+.OrderInformationDelete-order-details p:hover {
+    cursor: grab;
+    opacity: 0.8;
+    transition: opacity 2s ease;
+    color: #3D3D74;
+    font-weight: bolder;
+    font-family: 'Kay Pho Du';
+}
+
+.OrderInformationDelete-order-details {
+    background: #D9D9D9;
+    padding: 30px 20px;
+    border-radius: 30px;
+    border: none;
+    line-height: 2;
+
+    align-items: center;
+    text-align: center;
+}
+
+.OrderInformationDelete-order-details span {
+    color: #3D3D74;
+    font-weight: 800;
+}
+
+.OrderInformationDelete-order-details h2 {
+    margin-top: -10px;
+    text-align: center;
+    color: #3D3D74;
+    font-weight: 800;
+}
+
+.OrderInformationDelete-order-details .line {
+    background: white;
+    width: 100%;
+    height: 3px;
+
+}
+
+
+.OrderInformationDelete-order-details button {
+    background-color: #3D3D74;
+    color: #fff;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    font-family: 'KAY PHO DU';
+    border-radius: 20px;
+    width: 100px;
+}
+
+button:active {
+
+    transform: scale(1.3);
+    /* Phóng to 130% */
+}
+
+.OrderInformationDelete-text {
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+.OrderInformationDelete-delete_button {
+    margin-top: 20px;
+}
+
+.OrderInformationDelete-payment-button {
+    background-color: #3D3D74;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.OrderInformationDelete-payment-button span {
+    background: #D9D9D9;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 50px;
+    border: none;
+    padding: 8px 8px;
+    margin-left: 10px;
+}
+
+.OrderInformationDelete-payment-button span:hover {
+    color: #007bff;
+    cursor: grab;
+}
+
+.OrderInformationDelete-cancel {
+    text-align: center;
+    color: #3D3D74;
+    font-weight: 700;
+}
+
+.OrderInformationDelete-order-details .cancel:hover {
+    cursor: grab;
+}

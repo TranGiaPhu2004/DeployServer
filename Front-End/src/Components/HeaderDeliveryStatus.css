@@ -1,0 +1,110 @@
+.HeaderDeliveryStatus-main {
+    width: 100%;
+    max-width: 100vw;
+    margin-top: -170px;
+}
+
+
+.HeaderDeliveryStatus-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    max-width: 100vw;
+    /*  max-width: 100vw : Đảm bảo header không vượt quá chiều rộng màn hình */
+}
+
+
+.HeaderDeliveryStatus-logo-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.HeaderDeliveryStatus-koi-logo {
+    height: 80px;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+
+.HeaderDeliveryStatus-express-logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.HeaderDeliveryStatus-express-logo img {
+    height: 60px;
+    margin-left: 255%;
+}
+
+.HeaderDeliveryStatus-express-logo span {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+
+.HeaderDeliveryStatus-user-actions {
+    display: flex;
+    box-sizing: border-box;
+    margin-left: 65%;
+}
+
+.HeaderDeliveryStatus-user-icon,
+.HeaderDeliveryStatus-cart-icon {
+    height: 35px;
+    margin-left: none;
+}
+
+.HeaderDeliveryStatus-user-icon,
+.HeaderDeliveryStatus-cart-icon:hover {
+    cursor: grab;
+}
+
+
+.HeaderDeliveryStatus-line {
+   
+    height: 1px;
+    background-color: rgb(187, 184, 184);
+    margin-top: 14px;
+    opacity: 0.3;
+    width: 167%;
+}
+
+.HeaderDeliveryStatus-list  {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 80px;
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+    width: 180%;
+    max-width: 100vw;
+    /* Đảm bảo không tràn ra khỏi màn hình */
+    box-sizing: border-box;
+    font-family: 'Kay Pho Du';
+    font-size: 50px;
+    margin-top: -40px;
+}
+
+.HeaderDeliveryStatus-list li {
+    text-align: center;
+}
+
+.HeaderDeliveryStatus-list a {
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 15px;
+   
+}
+
+.HeaderDeliveryStatus-list a:hover {
+    color: #007bff;
+    cursor: grab;
+}

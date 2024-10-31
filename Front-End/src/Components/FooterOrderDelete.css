@@ -1,0 +1,25 @@
+.FooterOrderDelete-main {
+    margin-top: 100px;
+    max-width: 100vw;
+   
+}
+
+.FooterOrderDelete-footer-main1 {
+    background-color: #3D3D74;
+    padding: 18px 20px;
+    width: 170%;
+   
+}
+
+.FooterOrderDelete-copyright {
+    color: white;
+    text-align: center;
+}
+
+
+.FooterOrderDelete-copyright,
+.FooterOrderDelete-copyright1 {
+    color: white;
+    text-align: center;
+    font-family: 'Kay Pho Du';
+}

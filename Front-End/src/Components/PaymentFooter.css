@@ -1,0 +1,26 @@
+.PaymentFooter-mainfooter {
+    margin-top: 100px;
+    max-width: 100vw;
+    width: 100%;
+}
+
+.PaymentFooter-footer-main {
+    background-color: #3D3D74;
+    padding: 10px 20px;
+    width: 165%;
+    margin-left: -10%;
+}
+
+.PaymentFooter-copyright {
+    color: white;
+    text-align: center;
+}
+
+
+.PaymentFooter-copyright,
+.PaymentFooter-copyright1 {
+    color: white;
+    text-align: center;
+    padding: 3px 3px;
+    font-family: 'Kay Pho Du';
+}

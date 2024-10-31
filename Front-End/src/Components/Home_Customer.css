@@ -1,0 +1,42 @@
+.Home-Customer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white; /* Change as per your preference */
+}
+
+.Home-flag {
+  height: 70%;
+  margin-right: 10px;
+}
+
+.Home-logo {
+  height: 50px;
+  margin-right: 20px;
+}
+
+.Home-Customer-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.Home-Customer-nav a {
+  text-decoration: none;
+  color: black; 
+  font-size: 16px;
+  padding: 8px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.Home-Customer-nav a:hover {
+  background-color: #3D3D74;
+  color: #dfff;
+}
+
+.Home-Customer-Avatar {
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+}

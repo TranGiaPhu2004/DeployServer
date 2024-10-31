@@ -1,0 +1,50 @@
+.Home-header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    font-family: cursive;
+  }
+  .Home-header-container{
+    display: flex;
+    justify-content: space-between;  /* Căn đều các phần */
+    align-items: flex-start;
+    padding: 0 50px;
+
+  }
+  .Home-header1{
+    display: inline-block;
+  }
+
+  .Home-flag {
+    width: 100px;
+    height: auto;
+  }
+  
+  .Home-nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .Home-auth-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .Home-auth-buttons button {
+    margin: 0 5px;
+    padding: 10px;
+    background-color: #3D3D74;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: 'Kay Pho Du';
+  }
+  .Home-header-content {
+    display: contents;
+  }
+  
