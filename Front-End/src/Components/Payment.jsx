@@ -4,7 +4,7 @@ import './Payment.css';
 
 import pic from '../assets/image/KoiExpress.png'
 import user from '../assets/image/user.png'
-import koi from '../assets/image/koi.png'
+import koi from '../assets/image/user.png'
 import cart from '../assets/image/shoppingcart.png'
 function Payment() {
 
