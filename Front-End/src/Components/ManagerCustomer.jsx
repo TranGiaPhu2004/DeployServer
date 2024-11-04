@@ -15,9 +15,22 @@ const ManagerCustomer = () => {
   const navigate = useNavigate();
   const username = localStorage.getItem("username");
   // Pagination states
-  
+
   const [currentPage, setCurrentPage] = useState(1); // Current page
   const [ordersPerPage] = useState(12); // Number of orders per page
+
+  const [imageUrl, setImageUrl] = useState("");
+
+  const fetchRandomImage = () => {
+    const unsplashUrl = "https://loremflickr.com/320/240/koi";
+    setImageUrl(unsplashUrl);
+  };
+
+  useEffect(() => {
+    
+
+    fetchRandomImage();
+  }, []); // E
 
   useEffect(() => {
     const token = localStorage.getItem("token");
@@ -258,30 +271,41 @@ const ManagerCustomer = () => {
               </tr>
             </thead>
             <tbody>
-              {currentOrders.map((customer) => (
-                <tr key={customer.userID}>
-                  <td>{customer.userID}</td>
-                  <td>{customer.username}</td>
-                  <td>{customer.password}</td>
-                  <td>{customer.email}</td>
-                  <td>{customer.phonecontact || "N/A"}</td>
-                  <td>
-                    <button
-                      className="ManagerCustomer-btn-update"
-                      onClick={() => openUpdateForm(customer)}
-                    >
-                      Update
-                    </button>
-                    <button
-                      className="ManagerCustomer-btn-delete"
-                      onClick={() => deleteUser(customer.userID)}
-                    >
-                      Delete
-                    </button>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
+  {currentOrders.map((customer) => (
+    <tr key={customer.userID}>
+      <td>{customer.userID}</td>
+      <td>{customer.username}</td>
+      <td>{customer.password}</td>
+      <td>{customer.email}</td>
+      <td>{customer.phonecontact || "N/A"}</td>
+      <td>
+        <button
+          className="ManagerCustomer-btn-update"
+          onClick={() => openUpdateForm(customer)}
+        >
+          Update
+        </button>
+        <button
+          className="ManagerCustomer-btn-delete"
+          onClick={() => deleteUser(customer.userID)}
+        >
+          Delete
+        </button>
+      </td>
+      {/* New td for displaying the Google Drive image link */}
+      <td>
+      {imageUrl && (
+        <img
+          src={imageUrl}
+          alt="Random Unsplash"
+          style={{ width: "500px", height: "300px", objectFit: "cover" }}
+        />
+      )}
+      </td>
+    </tr>
+  ))}
+</tbody>
+
           </table>
           {/* Pagination controls */}
           <div className="ManagerOrder-pagination">
